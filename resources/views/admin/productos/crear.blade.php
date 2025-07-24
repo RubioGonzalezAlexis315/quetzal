@@ -13,8 +13,7 @@
             </ul>
         </div>
     @endif
-
-    {{-- Formulario de producto --}}
+    
     <form action="{{ route('admin.productos.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
 
